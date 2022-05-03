@@ -6,6 +6,7 @@
     --white: #fff ;
     --text-gray: #4a4a4a;
     --text-gray-light: #aaa;
+    --text-star-yellow: #FFBB3A;
 
 }
 
@@ -93,7 +94,7 @@ a, a:hover {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    height: 220px;
 }
 
 .dsmovie-card-description h3 {
@@ -104,6 +105,38 @@ a, a:hover {
     
 
 }
+
+.dsmovie-card-description-buttom h4{
+   font-size: 16px;
+   font-weight: 700;
+   color: var(--text-star-yellow);
+
+}
+
+.dsmovie-card-description-buttom p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-gray-light);
+    margin-bottom: 10px;
+ 
+ }
+
+
+.dsmovie-card-description-buttom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+.dsmovie-card-description-buttom img{
+    width: 22px;
+}
+
+
 
 /* configuração do botão avaliar*/
 
@@ -169,4 +202,6 @@ a, a:hover {
    margin-bottom: 20px;
 
 }
+
+
 
