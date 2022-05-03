@@ -104,6 +104,8 @@ a, a:hover {
 
 }
 
+/* configuração do botão avaliar*/
+
 .dsmovie-btn, .dsmovie-btn:hover {
     width: 180px;
     height: 40px;
@@ -116,4 +118,9 @@ a, a:hover {
     justify-content: center;
     border-radius: 4px;
 
+}
+
+.dsmovie-form-container {
+    padding: 40px 0;
+    max-width: 480px;
 }
